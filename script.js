@@ -29,15 +29,6 @@ function renderPage(data) {
         aboutLinks.innerHTML = `<a href="${data.contact.linkedin}" target="_blank" class="about-link">${linkedinIcon}Connect on LinkedIn</a>`;
     }
 
-    // Highlights
-    renderHighlights(data.highlights);
-
-    // Experience
-    renderExperience(data.experience);
-
-    // Skills
-    renderSkills(data.skills);
-
     // Coming Soon
     renderComingSoon(data.comingSoon);
 
@@ -46,47 +37,6 @@ function renderPage(data) {
     document.getElementById('emailLink').href = `mailto:${data.contact.email}`;
     document.getElementById('linkedinLink').href = data.contact.linkedin;
     document.getElementById('githubLink').href = data.contact.github;
-}
-
-function renderHighlights(highlights) {
-    const grid = document.getElementById('highlightsGrid');
-    grid.innerHTML = highlights.map(h => `
-        <div class="highlight">
-            <h4>${h.title}</h4>
-            <p>${h.description}</p>
-        </div>
-    `).join('');
-}
-
-function renderExperience(experiences) {
-    const timeline = document.getElementById('experienceTimeline');
-    timeline.innerHTML = experiences.map(exp => `
-        <div class="experience-item ${exp.type === 'Current' ? 'current' : ''}">
-            <h4>${exp.title}</h4>
-            <div class="experience-company">${exp.company}</div>
-            <div class="experience-dates">${exp.dates}</div>
-            <div class="experience-description">${exp.description}</div>
-            ${exp.highlights && exp.highlights.length > 0 ? `
-                <ul class="experience-highlights">
-                    ${exp.highlights.map(h => `<li>${h}</li>`).join('')}
-                </ul>
-            ` : ''}
-        </div>
-    `).join('');
-}
-
-function renderSkills(skills) {
-    document.getElementById('expertiseList').innerHTML = skills.expertise
-        .map(s => `<li>${s}</li>`)
-        .join('');
-
-    document.getElementById('technicalList').innerHTML = skills.technical
-        .map(s => `<li>${s}</li>`)
-        .join('');
-
-    document.getElementById('platformsList').innerHTML = skills.platforms
-        .map(s => `<li>${s}</li>`)
-        .join('');
 }
 
 function renderComingSoon(items) {
