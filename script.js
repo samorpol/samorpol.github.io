@@ -19,6 +19,16 @@ function renderPage(data) {
     document.getElementById('aboutSummary').textContent = data.about.summary;
     document.getElementById('aboutDescription').textContent = data.about.description;
 
+    // LinkedIn link with icon
+    const linkedinIcon = `<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.475-2.236-1.986-2.236-1.081 0-1.722.728-2.004 1.431-.103.25-.129.599-.129.948v5.426h-3.554s.035-8.087 0-8.929h3.554v1.263c-.009.015-.021.029-.03.042h.03v-.042c.395-.609 1.101-1.473 2.681-1.473 1.957 0 3.422 1.278 3.422 4.028v5.111zM5.337 8.855c-1.144 0-1.915-.758-1.915-1.704 0-.951.77-1.704 1.956-1.704 1.184 0 1.914.753 1.939 1.704 0 .946-.755 1.704-1.98 1.704zm1.581 11.597H3.713V9.523h3.205v10.929zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/>
+    </svg>`;
+
+    if (data.contact && data.contact.linkedin) {
+        const aboutLinks = document.getElementById('aboutLinks');
+        aboutLinks.innerHTML = `<a href="${data.contact.linkedin}" target="_blank" class="about-link">${linkedinIcon}Connect on LinkedIn</a>`;
+    }
+
     // Highlights
     renderHighlights(data.highlights);
 

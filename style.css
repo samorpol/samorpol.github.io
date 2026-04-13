@@ -253,6 +253,32 @@ p {
     max-width: 800px;
 }
 
+/* About Links */
+.about-links {
+    margin-top: var(--space-lg);
+}
+
+.about-link {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-sm);
+    color: var(--burnt-sienna);
+    text-decoration: none;
+    font-size: var(--text-md);
+    border-bottom: 1px solid var(--burnt-sienna);
+    transition: color 0.2s ease;
+    padding: var(--space-sm) 0;
+}
+
+.about-link:hover {
+    color: var(--near-black);
+}
+
+.about-link svg {
+    width: 24px;
+    height: 24px;
+}
+
 .large-text {
     font-size: var(--text-lg);
     font-weight: 500;
