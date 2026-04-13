@@ -28,25 +28,6 @@ function renderPage(data) {
         const aboutLinks = document.getElementById('aboutLinks');
         aboutLinks.innerHTML = `<a href="${data.contact.linkedin}" target="_blank" class="about-link">${linkedinIcon}Connect on LinkedIn</a>`;
     }
-
-    // Coming Soon
-    renderComingSoon(data.comingSoon);
-
-    // Contact
-    document.getElementById('contactCta').textContent = data.contact.cta;
-    document.getElementById('emailLink').href = `mailto:${data.contact.email}`;
-    document.getElementById('linkedinLink').href = data.contact.linkedin;
-    document.getElementById('githubLink').href = data.contact.github;
-}
-
-function renderComingSoon(items) {
-    const grid = document.getElementById('comingSoonGrid');
-    grid.innerHTML = items.map(item => `
-        <div class="coming-soon-item">
-            <h4>${item.title}</h4>
-            <div class="coming-soon-badge">${item.description}</div>
-        </div>
-    `).join('');
 }
 
 // Mobile Menu Toggle
