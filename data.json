@@ -1,0 +1,199 @@
+{
+  "name": "Sam Orpol",
+  "headline": "Platform Technologist | Analytics & Data Strategy Leader",
+  "tagline": "15+ years building data disciplines that drive business impact across tech, media, and platform-scale companies",
+  "email": "sam@samorpol.com",
+  "linkedin": "https://linkedin.com/in/samorpol",
+  "github": "https://github.com/samorpol",
+
+  "about": {
+    "title": "About",
+    "summary": "I help organizations unlock the full potential of data through strategic clarity, organizational readiness, and disciplined execution.",
+    "description": "My career has been defined by building analytics functions from zero across some of the world's largest media, technology, and platform companies. I specialize in translating complex data challenges into actionable business strategy, designing rigorous experimentation frameworks, and scaling teams to drive evidence-based decision-making at organizational scale.\n\nCurrently, I serve as Head of Data & Analytics at Ollset (pre-launch event-based social media platform) and as COO & Co-Founder at Apex Solutions (ML optimization platform for vending operators), with advisory responsibilities at NicklPass."
+  },
+
+  "experience": [
+    {
+      "title": "Head of Data & Analytics",
+      "company": "Ollset",
+      "dates": "2024 - Present",
+      "type": "Current",
+      "description": "Leading data strategy and analytics for pre-launch event-based social media platform. Defining data infrastructure, analytics roadmap, and organizational readiness for growth-stage company.",
+      "highlights": []
+    },
+    {
+      "title": "COO & Co-Founder",
+      "company": "Apex Solutions",
+      "dates": "2024 - Present",
+      "type": "Current",
+      "description": "Co-founding ML optimization platform for vending operators. Building go-to-market strategy, organizational structure, and data-driven decision-making framework for early-stage startup.",
+      "highlights": [
+        "Built machine learning algorithms for vending optimization"
+      ]
+    },
+    {
+      "title": "Head of Data & Analytics (Advisory)",
+      "company": "NicklPass",
+      "dates": "2023 - Present",
+      "type": "Current",
+      "description": "Strategic advisory on data architecture and analytics organization scaling.",
+      "highlights": []
+    },
+    {
+      "title": "Senior Vice President, Analytics",
+      "company": "Edelman",
+      "dates": "2019 - 2023",
+      "type": "Previous",
+      "description": "Built analytics organization from zero at Fortune 500 consulting firm. Designed analytics strategy, implemented experimentation programs, and scaled team managing analytics across 6,000+ employee firm.",
+      "highlights": [
+        "Established formal A/B testing and causal inference capabilities",
+        "Scaled analytics team from 0 to 12+ full-time analysts",
+        "Created analytics tools and dashboards serving 200+ stakeholders"
+      ]
+    },
+    {
+      "title": "VP, Data & Analytics",
+      "company": "Vimeo",
+      "dates": "2016 - 2019",
+      "type": "Previous",
+      "description": "Led data strategy for video technology company with 200M+ monthly active users. Managed analytics organization, experimentation platform, and product analytics across platform.",
+      "highlights": [
+        "Designed and implemented company-wide experimentation framework",
+        "Led predictive modeling for user retention and monetization",
+        "Managed analytics across product, content, and business teams"
+      ]
+    },
+    {
+      "title": "Director, Business Analytics & Intelligence",
+      "company": "Major League Soccer (MLS)",
+      "dates": "2014 - 2016",
+      "type": "Previous",
+      "description": "Built business analytics function from scratch for sports organization. Created analytics infrastructure supporting business strategy across merchandising, content, and media.",
+      "highlights": [
+        "Achieved 2x merchandise growth through pricing and inventory optimization",
+        "Established business intelligence infrastructure and reporting standards",
+        "Designed analytics-driven decision-making processes across business units"
+      ]
+    },
+    {
+      "title": "VP, Analytics",
+      "company": "iHeart Media",
+      "dates": "2012 - 2014",
+      "type": "Previous",
+      "description": "Led analytics for media company with 150M+ registered users, 800+ radio stations. Built analytics organization supporting product, content, and business strategy.",
+      "highlights": [
+        "Pioneered first formal A/B testing program, establishing culture of evidence-based decision-making",
+        "Designed analytics infrastructure supporting real-time audience insights",
+        "Scaled analytics team from 1 to 6 people"
+      ]
+    },
+    {
+      "title": "Director, Analytics & Insights",
+      "company": "HuffPost",
+      "dates": "2010 - 2012",
+      "type": "Previous",
+      "description": "Built analytics organization from zero for digital media company with 200M+ monthly visitors. Established analytics discipline and data-driven editorial decision-making.",
+      "highlights": [
+        "Created analytics infrastructure supporting 500+ content editors",
+        "Established data-driven editorial optimization framework",
+        "Led audience analytics and content performance analysis"
+      ]
+    },
+    {
+      "title": "Senior Consultant",
+      "company": "Booz Allen Hamilton",
+      "dates": "2009 - 2010",
+      "type": "Previous",
+      "description": "Strategy and operations consulting for Fortune 500 and government clients.",
+      "highlights": []
+    },
+    {
+      "title": "Senior Consultant",
+      "company": "Accenture",
+      "dates": "2007 - 2009",
+      "type": "Previous",
+      "description": "Strategy and operations consulting across financial services, technology, and government sectors.",
+      "highlights": []
+    }
+  ],
+
+  "education": [
+    {
+      "degree": "M.Sc. Business Analytics",
+      "school": "New York University",
+      "concentration": "Machine Learning Concentration",
+      "year": "2007"
+    },
+    {
+      "degree": "B.A.",
+      "school": "University of Pennsylvania",
+      "year": "2005"
+    }
+  ],
+
+  "skills": {
+    "expertise": [
+      "Data Strategy & Roadmapping",
+      "Analytics Organization Building",
+      "Experimentation Design & A/B Testing",
+      "Causal Inference",
+      "Organizational Scaling (Manager-of-Managers)",
+      "Business Intelligence Infrastructure",
+      "Product Analytics"
+    ],
+    "technical": [
+      "SQL",
+      "Python",
+      "Statistical Analysis",
+      "Machine Learning",
+      "Data Visualization",
+      "Dashboard Design",
+      "ETL & Data Pipeline Architecture"
+    ],
+    "platforms": [
+      "BigQuery",
+      "Snowflake",
+      "Tableau",
+      "Looker",
+      "Google Analytics",
+      "Mixpanel"
+    ]
+  },
+
+  "highlights": [
+    {
+      "title": "Platform-Scale Analytics Leadership",
+      "description": "Built analytics organizations serving millions of users and billions in revenue across HuffPost (200M+ monthly visitors), iHeart Media (150M+ users), and Vimeo."
+    },
+    {
+      "title": "Experimentation Discipline Pioneer",
+      "description": "Pioneered first formal A/B testing and causal inference programs at iHeart, establishing culture of evidence-based decision-making that persists today."
+    },
+    {
+      "title": "Zero-to-One Builder",
+      "description": "Built analytics functions from scratch at 4+ organizations (HuffPost, iHeart, MLS, Edelman), scaling teams and establishing analytics as core business discipline."
+    },
+    {
+      "title": "Manager-of-Managers Leadership",
+      "description": "Scaled and managed multi-level analytics organizations, from individual contributors to directors, across portfolio of business units and functions."
+    }
+  ],
+
+  "comingSoon": [
+    {
+      "title": "Photography",
+      "description": "Coming soon"
+    },
+    {
+      "title": "Music",
+      "description": "Coming soon"
+    }
+  ],
+
+  "contact": {
+    "email": "sam@samorpol.com",
+    "linkedin": "https://linkedin.com/in/samorpol",
+    "github": "https://github.com/samorpol",
+    "cta": "Let's connect"
+  }
+}
