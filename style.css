@@ -128,18 +128,23 @@ header {
     font-family: 'Syne', sans-serif;
     font-size: var(--text-2xl);
     font-weight: 700;
-    color: var(--near-black);
+    color: var(--burnt-sienna);
     text-decoration: none;
     transition: color 0.2s ease;
 }
 
 .logo-link:hover {
-    color: var(--burnt-sienna);
+    color: var(--near-black);
 }
 
 .logo-octopus {
     width: 32px;
     height: 32px;
+    color: var(--burnt-sienna);
+    transition: color 0.2s ease;
+}
+
+.logo-link:hover .logo-octopus {
     color: var(--near-black);
 }
 
